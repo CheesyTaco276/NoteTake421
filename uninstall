@@ -1,0 +1,7 @@
+#!/bin/bash
+# remove script for NoteTake421
+
+# Clean up any files if needed. 
+# Pi-Apps usually removes the folder itself, but you can add extra cleanup here.
+echo "Removing NoteTake421..."
+rm -f ~/notetake421_note.txt

@@ -1,0 +1,5 @@
+#!/bin/bash
+# run script for NoteTake421
+
+# This script is called when the user clicks 'Run' in Pi-Apps
+python3 "$(dirname "$0")/notetake.py"

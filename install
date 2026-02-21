@@ -1,0 +1,11 @@
+#!/bin/bash
+# install script for NoteTake421
+
+# Install Python 3 and Tkinter (the GUI library)
+install_packages python3 python3-tk || exit 1
+
+# Clone the repository (replace with your actual GitHub URL when ready)
+# For now, this is a placeholder. 
+# git_clone https://github.com/CheesyTaco276/NoteTake421 || error 'Failed to clone repository!'
+
+echo "NoteTake421 installed successfully!"
